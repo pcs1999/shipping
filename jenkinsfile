@@ -1,7 +1,0 @@
-@Library('roboshop') _
- 
-env.component = "shipping"
-env.app_lang = "maven"
-env.java_opt = "-Dsonar.java.binaries=./target"
-env.extrafiles = "schema"
-ci ()
